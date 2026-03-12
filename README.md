@@ -14,7 +14,7 @@ git clone https://github.com/vrtc/qr.git short-link && cd short-link
 Скрипт сам установит зависимости, применит миграции и запустит сервер.
 
 ```bash
-./start.sh         # порт 8080 по умолчанию
+./start.sh         # порт 9888 по умолчанию
 ./start.sh 9888    # или любой другой порт
 ```
 
@@ -25,7 +25,7 @@ git clone https://github.com/vrtc/qr.git short-link && cd short-link
 docker compose up --build
 ```
 
-Приложение будет доступно на `http://localhost:8080`.  
+Приложение будет доступно на `http://localhost:9888`.  
 База данных хранится в именованном Docker-томе `sqlite_data` и переживает пересборку контейнера.
 
 ## Функциональность
