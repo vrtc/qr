@@ -1,0 +1,13 @@
+services:
+  app:
+    build: .
+    ports:
+      - "9888:9888"
+    environment:
+      - DB_PATH=/app/data/db.sqlite
+      - YII_ENV=prod
+    volumes:
+      - sqlite_data:/app/data
+
+volumes:
+  sqlite_data:
