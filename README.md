@@ -7,7 +7,7 @@
 ### Вариант 1 — скрипт (PHP + Composer на хосте)
 
 ```bash
-git clone <repo_url> short-link && cd short-link
+git clone https://github.com/vrtc/qr.git short-link && cd short-link
 ./start.sh
 ```
 
@@ -21,7 +21,7 @@ git clone <repo_url> short-link && cd short-link
 ### Вариант 2 — Docker
 
 ```bash
-git clone <repo_url> short-link && cd short-link
+git clone https://github.com/vrtc/qr.git short-link && cd short-link
 docker compose up --build
 ```
 
